@@ -329,7 +329,7 @@ a later GET of each still shows the original salary. Out-of-range or non-integer
     `grep -rhoE "us[1-5]_as[0-9]+" src/test | sort -u` lists all 20 (I)
 - [X] T038 Run every scenario in `specs/001-employee-management/quickstart.md` against
   `./mvnw spring-boot:run` and confirm the expected outputs
-- [ ] T039 Run `./mvnw verify` one last time, push, and confirm the GitHub Actions `ci` workflow is
+- [X] T039 Run `./mvnw verify` one last time, push, and confirm the GitHub Actions `ci` workflow is
   green (Quality Gate)
 
 ---
