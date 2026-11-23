@@ -1,5 +1,7 @@
 # employee-service
 
+[![ci](https://github.com/pablothx/employee-service/actions/workflows/ci.yml/badge.svg)](https://github.com/pablothx/employee-service/actions/workflows/ci.yml)
+
 A small REST service for managing employees (id, name, department, salary), built to show
 spec-driven development with an AI assistant and modern Java (21, records, Streams).
 
